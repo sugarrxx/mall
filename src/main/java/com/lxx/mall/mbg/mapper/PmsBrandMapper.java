@@ -5,11 +5,7 @@ import com.lxx.mall.mbg.model.PmsBrandExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
-/**
- * @author lixiaoxiang
- */
 public interface PmsBrandMapper {
-
     int countByExample(PmsBrandExample example);
 
     int deleteByExample(PmsBrandExample example);

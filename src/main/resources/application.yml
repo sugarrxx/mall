@@ -7,8 +7,7 @@ spring:
     username: root
     password: 11223344
 
-# MyBatisConfig已经配置, 都配置启动会报错, 相当于mapper的配置被配置了两遍
-#mybatis:
-#  mapper-locations:
-#    - classpath:mapper/*.xml
-#    - classpath*:com/**/mapper/*.xml
+mybatis:
+  mapper-locations:
+    - classpath:mapper/*.xml
+    - classpath*:com/**/mapper/*.xml
